@@ -1,0 +1,52 @@
+{
+  "name": "integrated-ws",
+  "version": "0.1.0",
+  "description": "Integrated WS",
+  "author": "CodeBlue.ventures",
+  "main": "app.js",
+  "private": true,
+  "engines": {
+    "node": ">=4.8.0",
+    "npm": ">=2.15.11",
+    "yarn": ">=0.20.3"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "express",
+    "node",
+    "node.js",
+    "mongodb",
+    "mongoose",
+    "es6",
+    "mocha",
+    "istanbul",
+    "REST",
+    "API",
+    "boilerplate"
+  ],
+  "dependencies": {
+    "ws": "^7.0.1"
+  },
+  "devDependencies": {},
+  "license": "MIT",
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "babel": {
+    "presets": [
+      "es2015",
+      "stage-2"
+    ],
+    "plugins": [
+      "add-module-exports"
+    ]
+  }
+}
